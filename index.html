@@ -74,7 +74,7 @@
     // 9th November 2013 at 1.15pm.
     var graduation_date = new Date(2013, 10, 9, 13, 15);
     var right_now = new Date();
-    var sec_elapsed = (right_now.UTC() - graduation_date.UTC()) / 1000;
+    var sec_elapsed = (right_now.getTime() - graduation_date.getTime()) / 1000;
     setInterval(function() {
       $('#time_elapsed').val(sec_elapsed++);
     }, 1);
