@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type='text/javascript'></script>
+<script>
+function clicked(s)
+{
+	document.getElementById('left').contentWindow.clicked(s);
+}
+</script>
+</head>
+<frameset cols="50%,50%">
+    <frame src="adjusted_jan_graph_modified.svg" name="left" id="left">
+	<frameset rows="70%,30%">
+    	<frame src="welcome.html" name="right" id="right">
+	<frame src="filter.html" name="down_right" id="down_right">
+	</frameset>
+</frameset>
+</html>

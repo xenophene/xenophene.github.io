@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ravee Malla</title>
+<link rel="stylesheet" href="http://www.cse.iitd.ernet.in/~cs5080224/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body id="projs">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="index.html">Ravee Malla</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="about.html" id="about">About Me</a></li>
+            <li><a href="acad.html" id="acad">Academics</a></li>
+            <li><a href="proj.html" id="projs">Projects</a></li>
+            <li><a href="tech.html" id="skill">Technical Skills</a></li>
+            <li><a href="miscs.html" id="misc">Misc</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="aboutpage.html" id="aboutpage">About This Page</a></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div class="container well">
+    <h2 class="proj">Projects</h2>
+    <div class="tabbable"> <!-- Only required for left/right tabs -->
+      <ul class="nav nav-tabs">
+        <li class="active">
+          <a href="#tab1" data-toggle="tab">Masters Project</a>
+        </li>
+        <li><a href="#tab2" data-toggle="tab">Image Processing</a></li>
+        <li><a href="#tab9" data-toggle="tab">Data Mining</a></li>
+        <li><a href="#tab3" data-toggle="tab">Systems</a></li>
+        <li><a href="#tab4" data-toggle="tab">Networks</a></li>
+        <li><a href="#tab5" data-toggle="tab">Hardware</a></li>
+        <li><a href="#tab6" data-toggle="tab">Software Engineering</a></li>
+        <li><a href="#tab7" data-toggle="tab">Economics</a></li>
+        <li><a href="#tab8" data-toggle="tab">Web Dev</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+          <ul class="unstyled">
+            <li>
+              <span class="heading">News Corpus Analysis and Exploration (IIT Delhi Thesis Project) : <a href="http://www.cse.iitd.ernet.in/~ramanath" target="_blank">Prof. Maya Ramanath</a> & <a href="http://www.cse.iitd.ernet.in/~bagchi" target="_blank">Prof. Amitabha Bagchi</a>, CSE, IIT Delhi</span><br>
+            We are working on a system to effectively visualize the time evolution of a news corpus. We want to make the news browsing experience extremely intuitive and contextual for an end-user. We have tried various approaches, and have reached some interesting conclusions. At this stage, we are building an interface based on our experiences and inferences of what should make a good news browsing experience. The data set of articles we have used have been New York Times articles(<a href="//nytimes.com" target="_blank">[5]</a>) from 1987 to 2007, as well articles from The Hindu(<a href="//thehindu.com" target="_blank">[6]</a>). For extracting entities (person, organization, topics, etc), we have experimented with various tools like OpenCalais(<a href="//opencalais.com" target="_blank">[2]</a>), Stanford NER(<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDAQFjAA&url=http%3A%2F%2Fnlp.stanford.edu%2Fsoftware%2FCRF-NER.shtml&ei=Dx_LUK6WD4jWrQek2YGIAQ&usg=AFQjCNENbNmwtXhxEAdBwHrWsA_NeD9hWg&bvm=bv.1355325884,d.bmk" target="_blank">[3]</a>), Alchemy API(<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDAQFjAA&url=http%3A%2F%2Fwww.alchemyapi.com%2Fapi%2Fentity%2F&ei=Mh_LULbNHobnrAegvoDgAg&usg=AFQjCNEZWiRxdtINqxVpxUXBdAosJz-gOA&bvm=bv.1355325884,d.bmk" target="_blank">[4]</a>) and have found that OpenCalais works best for a range of entities. 
+            <br>The work has the following broad themes involved, which have been explored separately.
+              <ul>
+                <li class="strong">News representation as a Directed Graph</li>
+                <li class="left">
+                  The primary reference for our work has been <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDcQFjAB&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.133.282&ei=ExnLUO7BJ4yGrAeQuIC4BQ&usg=AFQjCNGU6vuxUzfI10krM1iMkvBomifS1w&bvm=bv.1355325884,d.bmk">[1]</a>. We can think of news articles as nodes of a directed graph, which are arranged sequentially in time. There are links between articles based on the transformations that common "actors" undergo between these articles. There are 5 types of interactions defined between any 2 actors.
+                  <dl class="dl-horizontal">
+                    <dt>Birth</dt><dd>First occurrence of an actor in the recent past</dd>
+                    <dt>Cease</dt><dd>Last occurence of an actor in the near future</dd>
+                    <dt>Merge</dt><dd>First co-occurence of 2 actors in the recent past</dd>
+                    <dt>Split</dt><dd>Last co-occurence of 2 actors in the near future</dd>
+                    <dt>Continue</dt><dd>Continued co-occurrence of 2 actors, having co-occurred in the past and future</dd>
+                  </dl>
+                  The overall algorithm is to take in a set of articles, mine entities from them and then find and score all the different transformations among these entities. There on, we generate a graph with nodes as the articles labeled by the entities in the article, and the smallest possible edge set which covers all these transformations. We implemented this algorithm to run on NYTimes articles from 2000. Some graphs can be seen <a href="graphs/index_jan.html" target="_blank">here</a> and <a href="graphs/index_jan_feb.html" target="_blank">here</a>. Some interaction graphs between dominant actors involved in US Elections 2000 can be found <a href="graphs/newscode/" target="_blank">here</a>.<br>
+                  <strong>Observations</strong>: The directed graph, as you can see from the examples, becomes too densely connected and is very sensitive to the actor quality. Additionally, the emphasis is still on the nodes i.e. the articles, and the user is expected to navigate through each and get a sense of the story. Some more observations have been summarized in <a href="IS_presentation_ravee.pdf">this</a> report.
+                </li>
+                <li class="strong">News representation as topic-actor interaction map</li>
+                <li class="left">
+                  We are currently working on an interface to visualize news as a sequence of interactions among
+                  mined topics and actors, using the graph as a back-end alongside other scoring techniques.
+                  For this, we have designed a survey available <a href="http://konfrap.com/esthete/">here</a>.
+                  More information can be found <a href="final-report-csd851.pdf">here</a>.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        <!--END MTP-->
+        <!--START DIA-->
+        
+        <div class="tab-pane" id="tab2">
+          <div class="tabbable tabs-left">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#iw" data-toggle="tab">Image Warping</a>
+              </li>
+              <li>
+                <a href="#is" data-toggle="tab">Image Sketching</a>
+              </li>
+              <li>
+                <a href="#ivc" data-toggle="tab">Image & Video Compression</a>
+              </li>
+              <li>
+                <a href="#ci" data-toggle="tab">Cortical Image Flattening</a>
+              </li>
+            </ul>
+            <div class="tab-content tab-space">
+              <div class="tab-pane active" id="iw">
+                <span class="heading">Image Warping : <a href="http://www.cse.iitd.ernet.in/~pkalra" target="_blank">Prof. Prem Kalra</a>, CSE, IIT Delhi</span><br> Given an image which has been deformed using a Projective Transformation, we need to restore it back to the original image. We implemented the SIGGRAPH 2006 paper <a href="http://faculty.cs.tamu.edu/schaefer/research/mls.pdf" target="_blank">Image Deformation using Moving Least Squares</a> and compared the result to simple Delaunay Triangulation. Using the implementation of the paper, <a href="http://en.wikipedia.org/wiki/Marilyn_Monroe" target="_blank">Marilyn Monroe</a> can be made to smile like this.
+                <ul class="img-list">
+                  <li>
+                    <a href="#"><img class="thumbnail monroe" src="monroe1.jpg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="#"><img class="thumbnail monroe" src="m.png" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane" id="is">
+                <span class="heading">Image Sketching : <a href="http://www.cse.iitd.ernet.in/~pkalra" target="_blank">Prof. Prem Kalra</a>, CSE, IIT Delhi</span><br>  In this assignment, we implemented a tool to create a pencil sketched version of a city map or a portrait. Various references like <a href="http://www.cse.iitd.ac.in/~pkalra/csl783/assignment1/paper1.pdf" target="_blank">this</a> and <a href="http://www.scientific.net/AMR.159.481" target="_blank">this</a> were studied. The final result is something that makes my favourite guitarist (<a href="http://en.wikipedia.org/wiki/Brad_Delson" target="_blank">Brad Delson</a>) look like this.
+                <ul class="img-list">
+                  <li>
+                    <a href="#"><img class="thumbnail brad" src="b5.jpg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="#"><img class="thumbnail brad" src="b2.png" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane" id="ivc">
+                <span class="heading">Image & Video Compression : <a href="http://www.cse.iitd.ernet.in/~pkalra" target="_blank">Prof. Prem Kalra</a>, CSE, IIT Delhi</span><br>
+                We implemented and compared different compression schemes for images and videos like <em>Gaussian/LaPlacian Pyramids</em> (as described <a href="http://persci.mit.edu/pub_pdfs/RCA84.pdf" target="_blank">here</a>) and standard dictionary based approaches like <em>LZW</em>. For video, we achieved further compression by computing interframe correlation and subtracting all the static components of the video.
+              </div>
+              <div class="tab-pane" id="ci">
+                <span class="heading">Cortical Image Flattening : <a href="http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=1742" target="_blank">Prof. Shantanu Ghosh</a> & <a href="http://www.cse.iitd.ac.in/~sumantra/" target="_blank">Prof. Sumantra Dutta Roy</a></span><br>  
+                We considered the problem of image flattening of the Cortical Surface of the Human Brain. Images of the Brain are acquired through MRI (Structural and Functional) scans, which operates on the principle of <a href="http://en.wikipedia.org/wiki/Nuclear_magnetic_resonance" target="_blank">Nuclear Magnetic Resonance</a>. <br><br>
+                The output is a 3D image of the brain, which is analyzed as slices of 2D images. However, since the surface of the brain is highly convoluted, this distorts distance between two points on the surface and makes it difficult to see the tumours that lie deep in a Sulcus(depression). Our approach was to think of the flattening as a mapping from a 3D surface to a 2D plane, preserving neighbourhood topology and minimizing surface distortion.
+              </div>
+            </div>
+          </div>
+	<br><br>
+
+        The first three projects were done as part of the course Digital Image Analysis along with Jatinder.<br>
+        Cortical Surface Flattening was pursued during summers of 2010 along with Utkarsh.<br>
+        </div>
+        
+        <!--END DIA-->
+        <!--START OS-->
+        
+        <div class="tab-pane" id="tab3">
+          <ul class="unstyled">
+            <li><span class="heading">Assignments on <a href="http://www.stanford.edu/class/cs140/projects/pintos/pintos.html" target="_blank">PintOS</a> : <a href="http://www.cse.iitd.ernet.in/~sbansal" target="_blank">Prof. Sorav Bansal</a>, CSE, IIT Delhi</span><br> We implemented thread scheduling, system calls (fork, exit, wait, etc), virtual memory management (using page tables, swap disks & memory maps), ability to run user programs & file system control. Coding was done in C, and SVN was used for version control. The project helped me to understand large-scale code organization, appreciate synchronization protocols (the <em>very very hard</em> way), criticality of backing up your code (after Rahul almost murdured me when I lost some of it) and the importance of designing code on paper before coding it.<br>
+            I did 2 parts each with my batch mates Rahul & <a href="http://www.cse.iitd.ernet.in/~cs5080220/" target="_blank">Pranay</a>, both of whom have the gift of psychic intuition & was guided by Ashwin, our unofficial mentor. :~)
+            </li>
+            <li><span class="heading">Vulnerabilities in C : <a href="http://www.cse.iitd.ernet.in/~saran" target="_blank">Prof. Huzur Saran</a>, CSE, IIT Delhi</span><br> We exploited certain well known vulnerabilities that result due to unsafe buffer operations in C. Though most of these problems are now solved, legacy code still poses a threat. Some of them include buffer overflows, format string attacks, return-to-libc, GOT-table attack, double free bug, etc.</li>
+            <li><span class="heading">Heap Spraying attack : <a href="http://www.cse.iitd.ernet.in/~saran" target="_blank">Prof. Huzur Saran</a>, CSE, IIT Delhi</span><br> We performed a Heap Spraying attack on the Ice weasel browser. As a result, we could remotely have the user open a particularly crafted malformed HTML file, which would spray the browser's heap with malicious code (shell), and have the user unknowingly execute it, gaining access to the user's shell.</li>
+            <li><span class="heading">Fuzzing : <a href="http://www.cse.iitd.ernet.in/~saran" target="_blank">Prof. Huzur Saran</a>, CSE, IIT Delhi</span><br> We explored the various tools and techniques that constitute Fuzzing, a general approach to hack into any software.</li>
+          </ul>
+          
+        </div>
+        
+        <!--END OS-->
+        <!--START NETWORKS-->
+        
+        <div class="tab-pane" id="tab4">
+          <ul class="unstyled">
+          <li><span class="heading"><a href="http://www.cse.iitd.ernet.in/~aseth/assg/bwtests/bwprobing.html" target="_blank">Bandwidth Assignments</a> on Blackberry : <a href="http://www.cse.iitd.ernet.in/~aseth" target="_blank">Prof. Aaditeshwar Seth</a>, CSE, IIT Delhi</span><br> Our group implemented a few applications on the <a href="http://us.blackberry.com/developers/" target="_blank">Blackberry RIM</a> platform to study network characteristics for mobile devices inside the IIT campus. In my group were the ever enthusiastic Rajwinder, Narinder and KnowledgeOcean (GyanSagar in Hindi). Our compiled report is available <a href="networks_assign2.pdf" target="_blank">here</a>.</li>
+          <li><span class="heading">P2P <a href="http://www.cse.iitd.ernet.in/~aseth/assg/bluetooth/bluetoothlogs.html" target="_blank">Bluetooth</a> transfers : <a href="http://www.cse.iitd.ernet.in/~aseth" target="_blank">Prof. Aaditeshwar Seth</a>, CSE, IIT Delhi</span><br> We studied some interesting properties of a community network of bluetooth devices. We investigated the possibility of file transfer in a P2P fashion within the network. The final report is available <a href="networks_assign4.pdf" target="_blank">here</a>.</li>
+          <li><span class="heading">Activity Recognition using <a href="http://www.sunspotworld.com/" target="_blank">Sun SPOT</a> : <a href="http://www.cse.iitd.ernet.in/~vinay" target="_blank">Prof. Vinay Ribeiro</a>, CSE, IIT Delhi</span><br> We considered the problem of Activity Recognition of an individual in real time and classifying it as one of the predefined activities like Standing, Walking, Running, Jumping, etc. We used Sun SPOT, a wireless accelerometer device which communicated the normalized accleration values along the three directions to a basestation using Radio Frequency. We experimented with Feature Vector Modelling and applying Bayesian Classification. However, since our data was stochastic in nature, we also analyzed the Statistical patterns observed for each activity. This project was pursued as part of Wireless Networks course along with Rahul, Arvind and Jagjeet. More details can be found in our <a href="CSL838-final-report.pdf" target="_blank">report</a>.</li>
+          <li><span class="heading">ARP Cache Poisoning and Spoofing : <a href="http://www.cse.iitd.ernet.in/~saran" target="_blank">Prof. Huzur Saran</a>, CSE, IIT Delhi</span><br> We wrote a small script to poison the ARP cache of a particular IP on the LAN by sending garbage ARP reply packets. With this, the unsuspecting host sends IP packets meant for some other IP to the attacker, since the attacker has changed the IP-to-MAC mapping, writing attacker's MAC in place of destination MAC. This can be used to take over any TCP connection and become a <strong>Man-in-the-middle</strong>. </li>
+          </ul>
+        </div>
+        
+        <!--END NETWORKS-->
+        <!--START HARDWARE-->
+        
+        <div class="tab-pane" id="tab5">
+          <ul class="unstyled">
+          <li><span class="heading">Logisim H/W Design Tool : <a href="http://www.cse.iitd.ernet.in/~anshul" target="_blank">Prof. Anshul Kumar</a>, CSE, IIT Delhi</span><br> Our group made changes to the Logisim design tool used at IIT Delhi and many other universities as part of the architecture course. The original software, written in Java, has been designed by <a href="http://ozark.hendrix.edu/~burch/" target="_blank">Prof. C. Burch</a>. The project required us to understand the architecture and design of the software, and build on top of it. In my group were <a href="http://www.cse.iitd.ernet.in/~cs5080208" target="_blank">Arunim</a> & Kshiteej, both brilliant programmers. The modified software is available <a href="http://www.cse.iitd.ernet.in/~cs5080214/download.html" target="_blank">here</a>.</li>
+          <li><span class="heading">2-D Ping Pong on SVGA : <a href="http://www.cse.iitd.ernet.in/~mbala" target="_blank">Prof. M Balakrishnan</a>, CSE, IIT Delhi</span><br> As part of my digital hardware course, we used the Virtex 2 Pro Digilent board (FPGA) to simulate a 2D ping pong game onto the VGA screen, coded up in VHDL. We also incorporated speed, level and 1 or 2 player modes. I worked with Utkarsh, who incidentally has the ability to communicate and talk in binary. 
+          </li>
+          <li><span class="heading">MIPS Simulator : <a href="http://www.cse.iitd.ernet.in/~anshul" target="_blank">Prof. Anshul Kumar</a>, CSE, IIT Delhi</span><br> We  designed a MIPS simulator using Logisim design software which implemented all the basic instructions of MIPS in the Multi-Cycle design approach. We extended this design to include exception handling of all the common exceptions like arithmetic, bad instruction, wrong address and external exceptions. </li>
+          <br>
+          </ul>
+        </div>
+        
+        <!--END HARDWARE-->
+        <!--START SE-->
+        
+        <div class="tab-pane" id="tab6">
+          <p>
+          These assignments were done as part of the software design course along with my group partner Simranjit, who doesn't mind being called Simran :)</p>
+          <ul class="unstyled">
+          <li><span class="heading">VLSI Chip Router : <a href="http://www.cse.iitd.ernet.in/~panda" target="_blank">Prof. Preeti Ranjan Panda</a>, CSE, IIT Delhi</span><br> We designed a VLSI Chip router which took an input grid of size upto 5000X5000 along with the input pairs to be routed using A* algorithm with some heuristics. The output was displayed onto the screen as well as written onto a text file. 
+          </li>
+          <li><span class="heading">Operation Scheduler : <a href="http://www.cse.iitd.ernet.in/~panda" target="_blank">Prof. Preeti Ranjan Panda</a>, CSE, IIT Delhi</span><br> The objective was to come up with a time and/or resource optimum scheduling given a set of operations of certain type(s) (addition, division, etc), and a set of resource instances (2 adders, 3 dividers, etc) along with the delay, pre-requisite & maximum resource/time constraints. </li>
+          </ul>
+        </div>
+        
+        <!--END SE-->
+        <!--START ECO-->
+        
+        <div class="tab-pane" id="tab7">
+          <ul class="unstyled">
+            <li><span class="heading">Time evolution of stock price correlations using <a href="http://en.wikipedia.org/wiki/Multidimensional_scaling" target="_blank">Multidimensional Scaling</a> : <a href="http://fiquant.mas.ecp.fr/chakraboa" target="_blank">Prof. Anirban Chakraborti</a>, MAS, <a href="http://www.ecp.fr" target="_blank">&Eacute;cole Centrale Paris</a></span><br>Given a set of companies, we model distances between them using their stock price correlations and visualize the data using Multidimensional Scaling. This analysis was extended for different periods of time to highlight how the correlations vary by generating differential graphs. We found that such a method provides useful insight into how the market is behaving at one glance. A theoretical report was submitted on the general idea as part of my <a href="colloq-report.pdf" target="_blank">Colloquium presentation</a>.</li>
+            <li><span class="heading">Correlating share prices & company ratios in the Indian market : Prof. Shveta Singh, <a href="http://www.dmsiitd.org/" target="_blank">DMS</a>, IIT Delhi</span><br>We studied the correlation patterns between company ratios and the share prices of certain large scale companies in various sectors of the Indian market. The correlation measure gives an insight into how fundamental the Indian market is. The sectors we considered were Banking, Oil, FMCG and Automobile. This idea was an extension of the work above to the Indian market. A report can be found <a href="ReportFinal.pdf" target="_blank">here</a>. Our conclusion was that even though there is a huge frequency difference between stock price change and company ratios, there still is a <em>general correlation</em> between them.</li>
+          </ul>
+        </div>
+        
+        <!--END SE-->
+        <!--START WEB DEV-->
+        
+        <div class="tab-pane" id="tab8">
+          <ul class="unstyled">
+            <li><span class="heading">Auto-site</span><br>
+              A python script to create a barebones web presence, based on the template of this page and Bootstrap. Just change the parameters and have the pages ready! Then you can individually tweak the pages to your needs. Version 1 is up <a href="https://github.com/xenophene/auto-site" target="_blank">here</a>.
+            </li>
+            <li><span class="heading">Company visualization</span><br>
+              An experiment with d3 Tree layout to visualize the companies that open typically for placement. See it <a href="analysis/tree.html" target="_blank">here</a>.
+            </li>
+          </ul>
+        </div>
+        
+        <!--END WEB DEV-->
+        <!--START QUERY-->
+        <div class="tab-pane" id="tab9">
+          <ul class="unstyled">
+            <li><span class="heading">Effects of Domain and Search Expertise on Web Search : <a href="http://research.microsoft.com/en-us/people/monojitc/" target="_blank">Monojit Choudhury</a> and <a href="http://research.microsoft.com/en-us/people/kalikab/" target="_blank">Kalika Bali</a></span><br/>
+              We conducted a study to measure how web Search Expertise (SE) and Domain Expertise (DE) affects the overall search performance and
+              search behavior of a user on domain specific search tasks. Search performance is a measure of how fast a user is able to arrive
+              at an accurate answer for a given fact finding search tasks. Domain Expertise is a measure of the knowledge of the user
+              in the domain from which the online search task was created.
+            </li>
+            <li><span class="heading">Clustering Questions using their Answers : Sachindra Joshi, IBM IRL</span><br/>
+              Our problem was to aggregate related questions asked on multiple forums and create a holistic FAQ/Question repository. This helps in deduplicating similar questions and answering them if a related question was already answered elsewhere.
+              However, tf-idf text clustering performs poorly when the text is in the form of questions, chiefly because questions are usually brief. For eg., <em>How do I activate this product?</em> and <em>How do I obtain a license key?</em> would have similar answers, but have poor word overlap. However, if we had access to their answers we can learn that questions like this are very similar.
+              We implemented a clustering algorithm which used the information in the answers domain to guide and improve the clustering of the question. The idea was inspired from <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5360229&tag=1" target="_blank">[1]</a>.
+            </li>
+          </ul>
+        </div>
+        <!--END QUERY-->
+      </div>
+    </div>
+  </div>
+<script src="jquery-1.7.2.min.js"></script>
+<script src="http://www.cse.iitd.ernet.in/~cs5080224/bootstrap/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

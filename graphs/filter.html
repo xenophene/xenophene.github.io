@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript"></script>
+<script type="text/javascript" src='datetimepicker.js'></script>
+<script>
+function go_click()
+{
+	t = document.getElementById('filter_name').value;
+	document.getElementById('filter_name').value = '';
+	parent.clicked(t);
+}
+function callclicked(s)
+{
+	document.getElementById('actors').innerHTML = s;
+}
+</script>
+</head>
+<body>
+<input type="text" id="filter_name" placeholder="enter actor filters"/>
+<button id="go" onclick='go_click()'>Filter</button>
+<br>
+Start Date: <input id="startdate" type="text" size="25"><a href="javascript:NewCal('startdate','ddmmyyyy')"><img src="cal.gif" width="16" height="16" border="0" alt="Pick a date"></a>
+<br>
+End Date: <input id="enddate" type="text" size="25"><a href="javascript:NewCal('enddate','ddmmyyyy')"><img src="cal.gif" width="16" height="16" border="0" alt="Pick a date"></a>
+<br>
+Actors: <div id='actors'></div>
+</body>
+</html>
