@@ -76,7 +76,8 @@
     var right_now = new Date();
     var sec_elapsed = (right_now.getTime() - graduation_date.getTime()) / 1000;
     setInterval(function() {
-      $('#time_elapsed').html(sec_elapsed++);
+      sec_elapsed++;
+      $('#time_elapsed').html(sec_elapsed.toLocaleString());
     }, 1000);
   });
 </script>
