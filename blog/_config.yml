@@ -14,6 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xenophene.github.io/" # the base hostname & protocol for your site
 twitter_username: raveemalla
 github_username:  xenophene
+sass:
+  sass_dir: _sass
 
 # Build settings
 markdown: kramdown
