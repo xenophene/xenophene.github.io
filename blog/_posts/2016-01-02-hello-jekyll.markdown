@@ -11,6 +11,7 @@ Setting that up was relatively easy, it just required creating a new Github repo
 Github advertises using Jekyll, and that's what I wanted to try out. This part took a while to figure out. There were just too many failed attempts at installing
 Jekyll on my local machine (something to do with El Capitan's enhanced security policies not allowing access to Ruby libraries). After weeks of Googling around, I gave up.
 Then suddenly, a few minutes ago, I tried it again and it just worked! My best guess is that the bug may have had some correlation with the year 2015 (on that note, happy new year to everyone reading this!).
+
 Sometimes I wonder if I really should call myself a Software Engineer!
 
 [personal page]: http://xenophene.github.io "My page"
