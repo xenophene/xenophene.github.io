@@ -42,7 +42,7 @@ close to raag Yaman (0, 2, 4, 6, 7, 9, 11, 12) and raag Bilawal (0, 2, 4, 5, 7,
 9, 11, 12). The '6' in Yaman adds to a certain ecstacy on top of the already
 joyous emotion expressed in raag Bilawal. And 2 -> 1 in Poorvi balances that
 with a suppression of sorts. You can see freedom/happiness, but it's not time
-yet (really arbitrary analogy, I know). In case you are curious, here are some
+yet to celebrate it (really arbitrary analogy, I know). In case you are curious, here are some
 [raag samples] of various Indian raags.
 
 I realize that at this point I have probably stopped making sense since I sound
