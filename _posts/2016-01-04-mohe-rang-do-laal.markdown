@@ -26,6 +26,7 @@ naivest possible fashion. The notes in play are:
 
 Before we proceed further, I'd like to introduce a simpler notation of scales
 that uses numbers to denote the note being played.
+
 1. Assign 0 to the root note
 2. Integer N refers to note that is N semi-tones ahead of the root note
 
