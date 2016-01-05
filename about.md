@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /blog/about/
+permalink: /about/
 ---
 Just another blog post. Most thoughts are deliberately left incoherent. More
 info [here][].
