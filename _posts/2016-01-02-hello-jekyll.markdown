@@ -14,6 +14,7 @@ Then suddenly, a few minutes ago, I tried it again and it just worked! My best g
 
 But I wasn't done just yet. Turns out that the Jekyll blog just can not _not_ be the top-level directory on Github. So, while the Jekyll directory structure was working locally, it wasn't working on Github.
 Moreover, I was getting these cryptic mails from Github saying that:
+
 > The page build failed with the following error: The file `blog/css/main.scss`
 contains syntax errors. For more information, see
 https://help.github.com/articles/page-build-failed-markdown-errors. If you have
