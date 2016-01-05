@@ -15,6 +15,7 @@ grandiosity (have I used the word enough?), I got drenched in the wide breadth
 and depth of emotions that Raag Purvi showers on the listener.
 
 It was this song right here:
+
 [![Mohe rang do laal](http://img.youtube.com/vi/CtVCfYgSxms/0.jpg)](https://www.youtube.com/watch?v=CtVCfYgSxms)
 
 A few seconds in, and you just know this is not something you listen to
@@ -40,7 +41,8 @@ close to raag Yaman (0, 2, 4, 6, 7, 9, 11, 12) and raag Bilawal (0, 2, 4, 5, 7,
 9, 11, 12). The '6' in Yaman adds to a certain ecstacy on top of the already
 joyous emotion expressed in raag Bilawal. And 2 -> 1 in Poorvi balances that
 with a suppression of sorts. You can see freedom/happiness, but it's not time
-yet (really arbitrary analogy, I know).
+yet (really arbitrary analogy, I know). In case you are curious, here are some
+[raag samples] of various Indian raags.
 
 I realize that at this point I have probably stopped making sense since I sound
 like I don't know what I'm talking about. You're right. In my defence, I think
@@ -71,3 +73,6 @@ integers. This needs to be developed more.
 So, the idea of this post was to introduce you to this amazing raag Purvi and
 notice how different it is from anything (if you exclusively listen to Breaking
 Benjamin) and most everything else we usually listen to.
+
+[Bajirao Mastani]: http://www.imdb.com/title/tt3735246/
+[raag samples]: http://raag-hindustani.com/Scales1.html
