@@ -2,7 +2,7 @@
 layout: post
 title: "Raag Purvi (or being decidedly different)"
 date: 2016-01-04 22:00:00 -0800
-categories: music, raga
+categories: "music,raga"
 ---
 [Bajirao Mastani][] is Sanjay Leela Bhansali (SLB)'s take on period films. SLB's
 baseline _epicness_ of films is already very high, and period films naturally give
