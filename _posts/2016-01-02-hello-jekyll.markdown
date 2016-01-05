@@ -12,7 +12,14 @@ Github advertises using Jekyll, and that's what I wanted to try out. This part t
 Jekyll on my local machine (something to do with El Capitan's enhanced security policies not allowing access to Ruby libraries). After weeks of Googling around, I gave up.
 Then suddenly, a few minutes ago, I tried it again and it just worked! My best guess is that the bug may have had some correlation with the year 2015 (on that note, happy new year to everyone reading this!).
 
+But I wasn't done just yet. Turns out that the Jekyll blog just can not _not_ be the top-level directory on Github. So, while the Jekyll directory structure was working locally, it wasn't working on Github.
+Moreover, I was getting these cryptic mails from Github saying that:
+> The page build failed with the following error:
+> The file `blog/css/main.scss` contains syntax errors. For more information, see https://help.github.com/articles/page-build-failed-markdown-errors.
+> If you have any questions you can contact us by replying to this email.
+
+Eventually, I moved all the files in to the top-level directory at the cost of a messy directory structure right now, and voilà!
 Sometimes I wonder if I really should call myself a Software Engineer!
 
-[personal page]: http://xenophene.github.io "My page"
+[personal page]: http://xenophene.github.io/personal.html "My page"
 [existing]: http://www.cse.iitd.ernet.in/~cs5080224
