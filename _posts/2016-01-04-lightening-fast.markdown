@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lightening Fast (ok Joke #1)"
+title: "Lightening Fast (or Joke #1)"
 date: 2016-01-04 23:00:00 -0800
 categories: jokes
 ---
