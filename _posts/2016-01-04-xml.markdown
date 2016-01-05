@@ -1,0 +1,10 @@
+---
+layout: post
+title: "XML is X-M-Licious (or Joke #2)"
+date: 2016-01-04 23:10:00 -0800
+categories: jokes
+---
+
+![Joke2](http://xenophene.github.io/joke_2.png)
+
+Some courses in college make for life-long memories.
