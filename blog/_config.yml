@@ -10,7 +10,7 @@ title: Falana Dimaka
 email: ravmalla@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Yet another attempt at blogging by yours truly.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://xenophene.github.io/" # the base hostname & protocol for your site
 twitter_username: raveemalla
 github_username:  xenophene
