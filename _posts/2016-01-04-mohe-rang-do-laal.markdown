@@ -5,7 +5,7 @@ date: 2016-01-04 22:00:00 -0800
 categories: music raga
 ---
 [Bajirao Mastani][] is Sanjay Leela Bhansali (SLB)'s take on period films. SLB's
-baseline epicness on films is already very high, and period films naturally give
+baseline _epicness_ of films is already very high, and period films naturally give
 a lot of room to just go crazy. Hats off to his team and him for creating a
 grandiose work of art.
 
