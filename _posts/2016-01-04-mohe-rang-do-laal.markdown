@@ -75,7 +75,12 @@ So, the idea of this post was to introduce you to this amazing raag Purvi and
 notice how different it is from anything (if you exclusively listen to Breaking
 Benjamin) and most everything else we usually listen to.
 
+Here are some more songs in this raag (this list will be updated as I find more):
+
+* [Marghat]
+
 PS: SLB is a music composer?! Woah, I didn't know that.
 
 [Bajirao Mastani]: http://www.imdb.com/title/tt3735246/
 [raag samples]: http://raag-hindustani.com/Scales1.html
+[Marghat]: https://www.youtube.com/watch?v=6UPFOlR_-pI
