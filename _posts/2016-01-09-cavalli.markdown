@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Cavalli (or Joke #3)"
+date: 2016-01-08 23:00:00 -0800
+categories: jokes
+---
+
+![Joke3](http://xenophene.github.io/joke_3.jpg)
