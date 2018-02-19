@@ -10,7 +10,7 @@ Here are two contrived and hypothetical scenarios in the life time of the Stock 
 ![Scenarios](http://xenophene.github.io/frequent-crashes.jpg)
 
 The two scenarios above present two possible ways a stock market can grow in a 30-year time period. In each case,
-it grows from x\_2 to x\_1. In scenario B, it takes a very smooth coarse whereas in scenario A, it takes a very choppy
+it grows from x<sub>2</sub> to x<sub>1</sub>. In scenario B, it takes a very smooth coarse whereas in scenario A, it takes a very choppy
 and volatile coarse. Scenario B definitely looks more appealing and scenario A looks unsettling. However, as someone who
 has 20+ years of investing ahead of them, you should _strongly_ prefer scenario A.
 
