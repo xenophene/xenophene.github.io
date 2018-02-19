@@ -20,7 +20,7 @@ long term in the stock market. It is literally what moves the market. The market
 _better deal_. But, it does not necessarily mean you buy more. How much of your holding you buy or sell depends on your
 personal life goals rather than the goals of the market.
 
-Money that you need within the next 6 months should not be in the market [more discussion] (http://xenophene.github.io/finance/2018/01/24/hands-of-financial-planning.html).
+Money that you need within the next 6 months should not be in the market [more discussion](http://xenophene.github.io/finance/2018/01/24/hands-of-financial-planning.html).
 If the money you've invested in not needed within the next 6 months, why bother with the daily squiggles, zigs and zags?
 
 Money that you invest in the Stock Market is in many ways like the bricks you use to build your home. You put them there hoping
