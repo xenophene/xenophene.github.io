@@ -65,6 +65,7 @@ It is ideal if you can have it so that a Savings account is all you need, but yo
 Recommendations for a Savings account are (as of June 2019)
 * [Marcus](https://www.marcus.com/us/en): An online savings account offered by Goldman Sachs ([Marcus Goldman](https://en.wikipedia.org/wiki/Marcus_Goldman) was one of its founders)
 * [Purepoint Financial](https://purepoint.com): An online savings account with slightly more competitive rates
+
 At all costs, avoid a big name brand's (Chase, Bank of America, etc) savings account as they offer close to 0% when you can get a lot more.
 
 Recommendations for a Checking account are (as of June 2019)
@@ -85,16 +86,16 @@ For the tax dimension, you have two choices for account types:
 
 For the risk-adjusted-return dimension, the various options for investment vehicles are:
 
-| Investment Vehicle  | Ticker Symbol  | Short-term risk  | Long-term risk  |
-|---|---|---|---|
-| Money Market Funds  |  [VMMXX](https://investor.vanguard.com/mutual-funds/profile/VMMXX) | Low  | High  |
-| Bonds  |  [VBTLX](https://investor.vanguard.com/mutual-funds/profile/overview/vbtlx) | Medium  | Medium  |
-| US Stocks  |  [VTSAX](https://investor.vanguard.com/mutual-funds/profile/overview/vtsax) | High  | Low  |
-| International Stocks  | [VTIAX](https://investor.vanguard.com/mutual-funds/profile/overview/vtiax)  | High  | Medium  |
-| ("Fancy") Emerging Markets |  [VEMAX](https://investor.vanguard.com/mutual-funds/profile/overview/vemax) | High  | Medium  |
-| ("Fancier") India ETF |  [INDA](https://personal.vanguard.com/us/funds/stocks/snapshot?Ticker=INDA) | High  | Medium  |
-| ("Fanciest") Individual Stocks |  Name-Your-Favorite-Company | ???  | ???  |
-| ("Fanciestest") Bitcoin |  Open a Coinbase account and start | Extremely High  | Extremely Low (jk)  |
+| Investment Vehicle  | Ticker Symbol  | Short-term risk  | Long-term risk  | Preferred account type |
+|---|---|---|---|---|
+| Money Market Funds  |  [VMMXX](https://investor.vanguard.com/mutual-funds/profile/VMMXX) | Low  | High  | Savings |
+| Bonds  |  [VBTLX](https://investor.vanguard.com/mutual-funds/profile/overview/vbtlx) | Medium  | Medium  | 401(k) |
+| US Stocks  |  [VTSAX](https://investor.vanguard.com/mutual-funds/profile/overview/vtsax) | High  | Low  | Roth / Brokerage |
+| International Stocks  | [VTIAX](https://investor.vanguard.com/mutual-funds/profile/overview/vtiax)  | High  | Medium  |  Roth / Brokerage |
+| ("Fancy") Emerging Markets |  [VEMAX](https://investor.vanguard.com/mutual-funds/profile/overview/vemax) | High  | Medium  | Roth / Brokerage |
+| ("Fancier") India ETF |  [INDA](https://personal.vanguard.com/us/funds/stocks/snapshot?Ticker=INDA) | High  | Medium  | Roth / Brokerage |
+| ("Fanciest") Individual Stocks |  Name-Your-Favorite-Company | ???  | ???  | Roth / Brokerage |
+| ("Fanciestest") Bitcoin |  Open a Coinbase account and start | Extremely High  | Extremely Low (jk)  | Roth / Brokerage |
 
 
 Why is the long-term risk of Money Market Funds high? Because they barely match inflation and will ensure that you continue to need a steady stream of income outside of your portfolio.
