@@ -138,5 +138,5 @@ Vanguard was founded by a brilliant man with a self-less mission.
 I have compiled a list of some of Jack Bogle's sage advice [here](https://www.youtube.com/playlist?list=PLfp5LBGeE9kVSKgTtWRRCdimyxfeaZEk1), these videos are highly recommended!
 
 
-There you have it. Note that you can potentially do all of 1-6 today, depending on what X and N is for you. But it's more about the journey and you enjoying it.
+There you have it. Note that you can potentially do all of 1-10 today, depending on what X and N is for you. But it's more about the journey and you enjoying it.
 Best wishes!
