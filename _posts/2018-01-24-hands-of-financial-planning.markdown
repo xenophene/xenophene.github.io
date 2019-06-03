@@ -18,6 +18,7 @@ exceedingly simple by design. It is clearly not the cleverest thing you can do, 
 As we go through the strategy, keep in mind, the concept of _net worth_ which we will keep alluding to. It is basically the worth of everything you own.
 We will use N to denote it.
 
+
 #### A common misconception
 A common misconception happens when people confuse an account-type with an investment vehicle. Think of account types as a partition (independent compartments of money) of your portfolio. Most people
 will have a handful of different account types (savings account, checking account, 401(k), IRA, etc) and the money in all those accounts will constitute their portfolio. An investment vehicle is what
@@ -35,6 +36,7 @@ Please take a moment to review these popular account-types and the investment ve
 | 529  |  Typically set by the plan offering this account, usually just broad stock & bond index funds |
 | Certificate of Deposit  |  Typically a higher-rate Money Market Fund with more access restrictions |
 
+
 #### Your Savings Rate
 Believe it or not, you have a "savings rate" too. And that is one of the best indicators of financial health. I am not talking about the savings rate offered by your
 savings bank account. I am referring to (E - I) / I where E is your monthly expenses and I is your monthly income. Later in this article, we will discuss what to do with (E - I).
@@ -43,6 +45,7 @@ The strategy is to have plans of action for a variety of *time horizons*: 1 day,
 you set aside an amount of money that you promise not to touch within that time frame.
 Below I present the plans for the various time horizons. These may not align perfectly with you and your life goals. But
 the idea is to get you to think of how you could adopt and adapt such a meta-plan.
+
 
 ### 1 day
 We're basically talking about who's paying for your dinner tonight. The you from many months ago has hopefully already made this a simple choice for the
@@ -81,6 +84,7 @@ For the tax dimension, you have two choices for account types:
 * after-tax account (brokerage, savings, checking, CD, etc).
 
 For the risk-adjusted-return dimension, the various options for investment vehicles are:
+
 | Investment Vehicle  | Ticker Symbol  | Short-term risk  | Long-term risk  |
 |---|---|---|---|
 | Money Market Funds  |  [VMMXX](https://investor.vanguard.com/mutual-funds/profile/VMMXX) | Low  | High  |
