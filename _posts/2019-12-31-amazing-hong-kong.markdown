@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Amazing Hong Kong! (and Cathay Pacific ♡)"
-date:   2019-12-31 22:00:00 -0800
+date:   2019-12-31 12:00:00 -0800
 categories: travel
 ---
 Oh wow yet another year going by (why am I surprised, time doesn't wait for anyone!)
