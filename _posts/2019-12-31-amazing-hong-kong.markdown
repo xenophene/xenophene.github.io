@@ -42,7 +42,7 @@ Hong Kong itself did not disappoint! Such a beautiful city with so much to see a
 {% include image.html url="/hkg/IMG_20191205_084140.jpg" description="Hong Kong Kowloon skyline" %}
 {% include image.html url="/hkg/IMG_20191205_114509.jpg" description="Hong Kong from Victoria Peak" %}
 {% include image.html url="/hkg/IMG_20191225_182354.jpg" description="Hong Kong laser light show, the largest of its kind!" %}
-{% include image.html url="/hkg/IMG_20191225_182354.jpg" description="Hong Kong laser light show, the largest of its kind!" %}
+{% include image.html url="/hkg/IMG_20191225_182416.jpg" description="Bunch of callbacks to Victorian era as well!" %}
 
 On my return trip, I used 5 means of transport on the same day: flight, taxi, bus, train and ferry! And celebrated Christmas
 2019 in 3 cities: Delhi, Hong Kong and San Francisco!
