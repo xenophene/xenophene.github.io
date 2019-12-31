@@ -16,12 +16,35 @@ AAdvantage cards (reach out to me if you have questions, I love talking points!)
 
 So on to the fun stuff!
 
-The journey started in SFO Cathay lounge where I was 4 hours early for my flight, and boy was that the right choice. The lounge
-is located tucked away in a narrow hallway with not such a grand entrace but the appearances can be deceiving! The lounge
-opens up and has a host of amenities like
+During the trip, I explored 3 Cathay lounges: one at SFO and two at HKG. I visited the Bridge and the Pier lounges at HKG
+and neither disappointed! These lounges offer a host of amenities like
 * shower
 * noodle bar
 * alcohol & hot meals
-* WiFi and comfortable couches
+* tea lounge
+* pizza and other baked goodies
+* WiFi and meditation and sleeping areas
 Here are some pictures from the lounge
 {% include image.html url="/hkg/sfo-lounge.jpg" description="Entrance to SFO Lounge, courtesy everybodyhatesatourist.net" %}
+{% include image.html url="/hkg/IMG_20191203_192919.jpg" description="Delicious noodles in SFO lounge." %}
+{% include image.html url="/hkg/IMG_20191225_213134.jpg" description="Delicious loose-leaf tea and amazing cookies / pastries at The Pier lounge, HKG" %}
+
+All four flights (SFO -> HKG -> DEL -> HKG -> SFO) were a dream! Here are some pictures
+{% include image.html url="/hkg/IMG_20191203_225813.jpg" description="Fully extendable bed" %}
+{% include image.html url="/hkg/IMG_20191204_010525.jpg" description="The flight attendent gave me a menu and asked what I would want, and I basically said Everything! :)" %}
+{% include image.html url="/hkg/IMG_20191204_014138.jpg" description="Can't skip the ice-cream" %}
+{% include image.html url="/hkg/IMG_20191204_124055.jpg" description="Next morning's breakfast" %}
+{% include image.html url="/hkg/IMG_20191226_012657.jpg" description="Yummy soup that was really heavy" %}
+{% include image.html url="/hkg/IMG_20191226_014105.jpg" description="Gotta think about health and fitness" %}
+{% include image.html url="/hkg/IMG_20191226_104756.jpg" description="Ok enough about health, where's em Carbs!" %}
+
+Hong Kong itself did not disappoint! Such a beautiful city with so much to see and eat!
+{% include image.html url="/hkg/IMG_20191205_084140.jpg" description="Hong Kong Kowloon skyline" %}
+{% include image.html url="/hkg/IMG_20191205_114509.jpg" description="Hong Kong from Victoria Peak" %}
+{% include image.html url="/hkg/IMG_20191225_182354.jpg" description="Hong Kong laser light show, the largest of its kind!" %}
+{% include image.html url="/hkg/IMG_20191225_182354.jpg" description="Hong Kong laser light show, the largest of its kind!" %}
+
+On my return trip, I used 5 means of transport on the same day: flight, taxi, bus, train and ferry! And celebrated Christmas
+2019 in 3 cities: Delhi, Hong Kong and San Francisco!
+
+On to 2020 and more such experiences! Seriously, everyone reading this, should look into travel hacking, it's worth it!
