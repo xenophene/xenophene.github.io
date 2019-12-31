@@ -48,3 +48,4 @@ On my return trip, I used 5 means of transport on the same day: flight, taxi, bu
 2019 in 3 cities: Delhi, Hong Kong and San Francisco!
 
 On to 2020 and more such experiences! Seriously, everyone reading this, should look into travel hacking, it's worth it!
+I am a terrible photographer so I haven't done justice to the beauty of Hong Kong, so you must visit yourself!
