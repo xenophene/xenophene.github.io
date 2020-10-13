@@ -103,22 +103,28 @@ For the risk-adjusted-return dimension, the various options for investment vehic
 An option is a time bound contract you enter with another party to buy or sell an underlying security at a set price. For eg., a "NFLX 200p 11/01/2021" is an
 option (aka PUT option) where the buyer buys the option (if they so chose to, but are not required to) to _sell_ 100 Netflix shares at $200 at any time between _date of option purchase_ and
 November 1, 2021. Once that date passes, the option is said to have expired. The buyer of this option "has found a potential buyer". 
+
 OTOH, the seller of this option (technically the party who _wrote_ this contract) has agreed to buy 100 shares of Netflix from _whoever_ owns
-the contract at the time it is _executed_. The seller agreed to be the potential buyer. Instead of executing this option, the buyer can
-sell it to another buyer (aka sell to close the position). The seller OTOH never had the option to execute the contract, besides not upholding their
+the contract at the time it is _executed_. The seller agreed to be the potential buyer.
+
+Instead of executing this option, the buyer can
+sell it to another buyer (aka sell to close the position). The seller OTOH doesn't have the option to execute the contract. Besides not upholding their
 side of the agreement (which is the counterparty risk), they can sell their position to another party (aka buy to close this position, they can't technically
 sell an option they don't own).
+
 Similarly, a "NFLX 200c 11/01/2021" is an option where the buyer buys the right to purchase 100 NFLX shares at $200 at any time between _date of option purchase_ and November 1, 2021.
 
 
 #### What is Tail risk hedging
 Markets are _non-ergodic_ which is a fancy term for random processes that are sequence dependent.
+
 | A drop of | Requires a rebound of |
 |---|---|
 | 10% | 11.11% |
 | 20% | 25% |
 | 50% | 100% |
 | 75% | 300% |
+
 There is a non-zero albeit very low chance of the market dropping by 75%! Unfortunately, there is _no_ way the market can rebound 300% in the same
 amount of time. So what is one to do? Here are some options to protect the downside:
 1. Market timing
