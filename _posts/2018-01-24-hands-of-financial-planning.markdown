@@ -15,7 +15,7 @@ And one of the last things you want to do is to use all your hard-earned money t
 
 Which brings us to the daunting subject of financial planning. And one strategy to systematically eliminate emotion from it. This strategy is
 exceedingly simple by design. It is clearly not the cleverest thing you can do, but again cleverness is emotion wearing a top hat.
-As we go through the strategy, keep in mind, the concept of _net worth_ which we will keep alluding to. It is basically yours assets minus your liabilities.
+As we go through the strategy, keep in mind, the concept of _net worth_ which we will keep alluding to. It is basically your assets minus your liabilities.
 We will use N to denote it.
 
 
