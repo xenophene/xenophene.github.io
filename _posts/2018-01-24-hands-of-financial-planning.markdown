@@ -55,7 +55,7 @@ you today. Tip: Always keep some cash for urgent situations. Still, prefer using
 Time for today's you to pay it forward. You have to budget for your expenses in the next 6 months. Ask yourself, how much rent do you pay
 every month? How much do you spend on your daily means? The transportation costs? Let's say this number is X. That means if you cut all income streams today,
 it will take 6 whole months for you to drain X. See what % of N is X. Is it more than 100%? Ouch, that means you really got to save much more than you
-do today or make more than you do. Hustle! Basically, stop reading until 2 things happen: 1) you save X in a checking/savings account, and X drops to <20%
+do today or make more than you do. Hustle! Basically, stop reading until 2 things happen: 1) you save X in a checking/savings account, and 2) X drops to <20%
 of N.
 
 #### A quick note about Savings and Checking accounts
