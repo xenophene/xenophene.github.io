@@ -5,7 +5,7 @@ date: 2018-01-24 23:00:00 -0800
 categories: finance
 ---
 
-**Updated: October 2020 (did I mention the world went crazy in 2020?)**
+**Updated: October 2020 (the world went crazy in 2020)**
 
 Human Emotion is a powerful force which, among other things, helps us to make _decisions_. Not necessarily _good_ or _rational_ decisions, but decisions nonetheless.
 It helps us get past the forks in the road. Our emotions essentially encode and intricately tie together our life experiences,
@@ -99,58 +99,6 @@ For the risk-adjusted-return dimension, the various options for investment vehic
 | ("Fanciestest") Bitcoin |  Open a Coinbase account and start | Extremely High  | Extremely Low (jk)  | Roth / Brokerage |
 
 
-#### A quick note about Options
-An option is a time bound contract you enter with another party to buy or sell an underlying security at a set price. For eg., a "NFLX 200p 11/01/2021" is an
-option (aka PUT option) where the buyer buys the option (if they so chose to, but are not required to) to _sell_ 100 Netflix shares at $200 at any time between _date of option purchase_ and
-November 1, 2021. Once that date passes, the option is said to have expired. The buyer of this option "has found a potential buyer". 
-
-OTOH, the seller of this option (technically the party who _wrote_ this contract) has agreed to buy 100 shares of Netflix from _whoever_ owns
-the contract at the time it is _executed_. The seller agreed to be the potential buyer.
-
-Instead of executing this option, the buyer can
-sell it to another buyer (aka sell to close the position). The seller OTOH doesn't have the option to execute the contract. Besides not upholding their
-side of the agreement (which is the counterparty risk), they can sell their position to another party (aka buy to close this position, they can't technically
-sell an option they don't own).
-
-Similarly, a "NFLX 200c 11/01/2021" is an option where the buyer buys the right to purchase 100 NFLX shares at $200 at any time between _date of option purchase_ and November 1, 2021.
-
-
-#### What is Tail risk hedging
-Markets are _non-ergodic_ which is a fancy term for random processes that are sequence dependent.
-
-| A drop of | Requires a rebound of |
-|---|---|
-| 10% | 11.11% |
-| 20% | 25% |
-| 50% | 100% |
-| 75% | 300% |
-
-There is a non-zero albeit very low chance of the market dropping by 75%! Unfortunately, there is _no_ way the market can rebound 300% in the same
-amount of time. So what is one to do? Here are some options to protect the downside:
-1. Market timing
-- Very very hard, see argument about n best and worst days
-2. Asset allocation [Modern Portfolio Theory]
-- Sorta works but best paired with clearly defined financial goals
-- Easier to do, albeit somewhat arbitrary and often leads to local optima
-- Examples of assets to pair with stocks: Precious metals, Bitcoin, Bonds, Land, Commodities
-- Assuming uncorrelation of underlying assets is a fallacy
-- Blunt hammer that doesn’t specifically address tail risks
-3. Buying insurances aka *tail risk hedging*
-- Tail is where the damage really happens; cut the tail, you win big!
-- Harder to do, but very precise & target outcome based
-
-##### Why do it?
-- Hybrid of market timing & asset allocation → a semi-passive time bomb defuser!
-- Heads you win, tails you don’t lose much
-##### An insurance of the form
-- For a premium, you’re assured that if the market drops >x%, you will be compensated
-- Possibility of winning big make the premium payments worth it
-- Cuts off the left tail which generates outperformance in the long run
-##### How is it done (a simple strategy against S&P 500)
-- Buying PUT options that are far OTM (out of the money i.e. >20% below current market level)
-- If / when option goes ITM (in the money), you sell and buy equities
-
-
 Why is the long-term risk of Money Market Funds high? Because they barely match inflation and will ensure that you continue to need a steady stream of income outside of your portfolio.
 
 
@@ -173,6 +121,61 @@ of holding the stock.
 But which company will be the most dominant in 5 years? Will it be the same as the dominant one 15 years in to the future? Probably not. Wouldn't it be nice if you
 _never_ had to take this call? Well, that's where index funds (the Vanguard funds above are all the index funds you'd typically need) come in. So you basically
 keep buying more and more of US and International stock markets and capture part of the productivity gains made by the 10s of 1000s of companies in the world.
+
+#### A quick note about Options
+An option is a time bound contract you enter with another party to buy or sell an underlying security at a set price. For eg., a "NFLX 200p 11/01/2021" is an
+option (aka PUT option) where the buyer buys the option (if they so chose to, but are not required to) to _sell_ 100 Netflix shares at $200 at any time between _date of option purchase_ and
+November 1, 2021. Once that date passes, the option is said to have expired. The buyer of this option "has found a potential buyer". 
+
+OTOH, the seller of this option (technically the party who _wrote_ this contract) has agreed to buy 100 shares of Netflix from _whoever_ owns
+the contract at the time it is _executed_. The seller agreed to be the potential buyer.
+
+Instead of executing this option, the buyer can
+sell it to another buyer (aka sell to close the position). The seller OTOH doesn't have the option to execute the contract. Besides not upholding their
+side of the agreement (which is the counterparty risk), they can sell their position to another party (aka buy to close this position, they can't technically
+sell an option they don't own).
+
+Similarly, a "NFLX 200c 11/01/2021" is an option where the buyer buys the right to purchase 100 NFLX shares at $200 at any time between _date of option purchase_ and November 1, 2021.
+
+
+### What is Tail risk hedging
+Markets are _non-ergodic_ which is a fancy term for random processes that are sequence dependent.
+
+| A drop of | Requires a rebound of |
+|---|---|
+| 10% | 11.11% |
+| 20% | 25% |
+| 50% | 100% |
+| 75% | 300% |
+
+There is a non-zero albeit very low chance of the market dropping by 75%! Unfortunately, there is _no_ way the market can rebound 300% in the same
+amount of time. So what is one to do? Here are some options to protect the downside:
+
+1. Market timing
+- Very very hard, see argument about n best and worst days
+2. Asset allocation [Modern Portfolio Theory]
+- Sorta works but best paired with clearly defined financial goals
+- Easier to do, albeit somewhat arbitrary and often leads to local optima
+- Examples of assets to pair with stocks: Precious metals, Bitcoin, Bonds, Land, Commodities
+- Assuming uncorrelation of underlying assets is a fallacy
+- Blunt hammer that doesn’t specifically address tail risks
+3. Buying insurances aka *tail risk hedging*
+- Tail is where the damage really happens; cut the tail, you win big!
+- Harder to do, but very precise & target outcome based
+
+#### Why do it?
+- Hybrid of market timing & asset allocation → a semi-passive time bomb defuser!
+- Heads you win, tails you don’t lose much
+
+#### An insurance of the form
+- For a premium, you’re assured that if the market drops >x%, you will be compensated
+- Possibility of winning big make the premium payments worth it
+- Cuts off the left tail which generates outperformance in the long run
+
+#### How is it done (a simple strategy against S&P 500)
+- Buying PUT options that are far OTM (out of the money i.e. >20% below current market level)
+- If / when option goes ITM (in the money), you sell and buy equities
+
 
 So, to recap the strategy, here are the key points
 1. Calculate your "savings rate" i.e. (I - E) / I.
