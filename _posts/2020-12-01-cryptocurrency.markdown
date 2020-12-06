@@ -63,3 +63,9 @@ Here is the accompanying article for the [video](https://www.youtube.com/watch?v
 ### Role of Bitcoin in society
 - Insurance policy against today's economic system messing up
 - Deregulates money supply and enables more economic inclusion
+
+### References
+- [https://www.youtube.com/watch?v=bBC-nXj3Ng4](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+- [https://medium.com/coinmonks/fiat-v-gold-v-bitcoin-706a03332f2b](https://medium.com/coinmonks/fiat-v-gold-v-bitcoin-706a03332f2b)
+- [https://www.linkedin.com/pulse/changing-value-money-ray-dalio](https://www.linkedin.com/pulse/changing-value-money-ray-dalio)
