@@ -10,7 +10,7 @@ deciding what business should or shouldn't be part of my portfolio.
 Note: I would strongly suggest you read my [financial planning](http://xenophene.github.io/finance/2018/01/25/hands-of-financial-planning.html)
 article as well as I am a strong advocate of passive index investing over active stock picking!
 
-### ~~Long~~Indefinite-term investments ###
+### ~~Long~~ Indefinite-term investments ###
 The best businesses aren’t just compounding machines, they produce compounding machines. Such businesses 1) clearly articulate their mission, 2) are decades away from achieving that vision, and 3) have the necessary ingredients in fulfilling their destiny. Square works on enabling finance for everyone. Tesla works on accelerating the advent of sustainable energy. These timeless mission-driven businesses must be held for indefinitely-long time periods.
 
 ### ~~Un~~ Accretively-correlated investments ###
@@ -19,7 +19,7 @@ Traditional risk management emphasizes capital allocation across uncorrelated as
 ### ~~Contrarian~~ Non-consensus investments ###
 Contreity lies on a spectrum. The more contrarian you are, the more you risk being wrong, but the larger your upside. On this risk-reward tradeoff, there lies a "non-consensus" sweet spot. It isn’t a contrarian position to believe that electric vehicles would be the future, but not everyone believes in Tesla. It isn't a contrarian position to believe that people can afford multiple subscription services, but not everyone believes that Netflix and Disney can thrive together.
 
-### ~~Stay~~ with Define the zeitgeist ###
+### ~~Stay with~~ Define the zeitgeist ###
 The best companies are the fashion icons ("trailblazers") of their industries. Netflix reinvented their brand in India by leveraging another popular video streaming service, YouTube, showing consumers why they needed another service. Square demonstrated what is possible when the worlds of consumer and business finance collide. Tesla made electric cars boring but still cooler than gasoline cars. Instagram is how the world expresses itself.
 
 
