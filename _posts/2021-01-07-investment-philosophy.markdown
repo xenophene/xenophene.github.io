@@ -4,11 +4,25 @@ title: "Investment Philosophy"
 date: 2021-01-07 23:00:00 -0800
 categories: finance
 ---
-2020 gave me a lot of time to introspect. Here are 8 things that I consider while
-deciding what business should or shouldn't be part of my portfolio.
+2020 was a great year for stock markets around the world. Almost everything went
+up like a rocket!
 
-Note: I would strongly suggest you read my [financial planning](http://xenophene.github.io/finance/2018/01/25/hands-of-financial-planning.html)
-article as well as I am a strong advocate of passive index investing over active stock picking!
+Here's what in my portfolio of individual stocks
+* Tesla
+* Spotify
+* Shopify
+* Alphabet
+* Facebook
+* Atlassian
+* Slack
+* Square
+* MongoDB
+* Fastly
+* Amazon
+* Netflix
+* Disney
+
+Here are 8 principles I followed while designing the above.
 
 ### ~~Long~~ Indefinite-term investments ###
 The best businesses aren’t just compounding machines, they produce compounding machines. Such businesses 1) clearly articulate their mission, 2) are decades away from achieving that vision, and 3) have the necessary ingredients in fulfilling their destiny. Square works on enabling finance for everyone. Tesla works on accelerating the advent of sustainable energy. These timeless mission-driven businesses must be held for indefinitely-long time periods.
@@ -34,3 +48,7 @@ Companies with technology in their DNA have an unfair advantage in today's world
 
 ### Highly ~~diversified~~ focussed businesses ###
 It is better for a business to go after a singular mission/problem statement with a huge TAM rather than going after disjoint albeit uncorrelated missions. This helps forge all employees into a cult. Everyone at Facebook enables the world to be more open and connected. Everyone at Disney enables adults to relive their childhood. Everyone at Netflix enables members moments of escape from their day to day.
+
+Note: Please read my [financial planning](http://xenophene.github.io/finance/2018/01/25/hands-of-financial-planning.html)
+article as well as I am a strong advocate of passive index investing over active stock picking!
+
