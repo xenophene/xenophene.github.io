@@ -63,6 +63,8 @@ Here is the accompanying article for the [video](https://www.youtube.com/watch?v
 ### Role of Bitcoin in society
 - Insurance policy against today's economic system messing up
 - Deregulates money supply and enables more economic inclusion
+- Most companies outsource their digital infrastructure, should countries outsource their monetary policy to Bitcoin?
+- If and when China's GDP surpasses that of the US, will everything still be priced in the USD or the Yuan? Will Bitcoin be the happy neutral?
 
 ### References
 - [https://www.youtube.com/watch?v=bBC-nXj3Ng4](https://www.youtube.com/watch?v=bBC-nXj3Ng4)

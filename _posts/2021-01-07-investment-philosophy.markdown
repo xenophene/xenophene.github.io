@@ -5,22 +5,7 @@ date: 2021-01-07 23:00:00 -0800
 categories: finance
 ---
 
-Here's what in my portfolio of individual stocks
-* Tesla
-* Spotify
-* Shopify
-* Alphabet
-* Facebook
-* Atlassian
-* Slack
-* Square
-* MongoDB
-* Fastly
-* Amazon
-* Netflix
-* Disney
-
-I followed these 8 principles while picking the above companies.
+Here are 8 principles one can follow while designing a portfolio of individual stocks.
 
 #### ~~Long~~ Indefinite-term investments ####
 The best businesses aren’t just compounding machines, they produce compounding machines. Such businesses 1) clearly articulate their mission, 2) are decades away from achieving that vision, and 3) have the necessary ingredients in fulfilling their destiny. Square works on enabling finance for everyone. Tesla works on accelerating the advent of sustainable energy. These timeless mission-driven businesses must be held for indefinitely-long time periods.
@@ -33,7 +18,6 @@ Contreity lies on a spectrum. The more contrarian you are, the more you risk bei
 
 #### ~~Stay with~~ Define the zeitgeist ####
 The best companies are the fashion icons ("trailblazers") of their industries. Netflix reinvented their brand in India by leveraging another popular video streaming service, YouTube, showing consumers why they needed another service. Square demonstrated what is possible when the worlds of consumer and business finance collide. Tesla made electric cars boring but still cooler than gasoline cars. Instagram is how the world expresses itself.
-
 
 #### ~~Hidden~~ Deeply misunderstood moats ####
 It is extremely rare to come across a business with a moat only visible to a few. They are discovered soon enough and the advantage goes away. What is more beneficial is to find businesses whose moats are visible in plain sight, just very deeply misunderstood. It was clear that Tesla made great electric cars, but why couldn't the German incumbents make better ones? Because right from the start, Tesla was not just building a car, but also making 1) car buying a delightful experience (disrupting car dealerships), 2) a supercharger network, 3) long-lasting, fast-charging, affordable batteries, 4) modern software for cars.
