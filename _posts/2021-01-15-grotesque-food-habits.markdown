@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 grotesque food habits"
+title: "10 Grotesque Food Habits"
 date: 2021-01-15 23:00:00 -0800
 categories: food
 ---
