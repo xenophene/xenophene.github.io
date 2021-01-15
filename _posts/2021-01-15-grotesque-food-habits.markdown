@@ -12,7 +12,9 @@ Before we continue, let's understand the fundamental unit of nutrition: calorie.
 
 #### Cut out added sugar ####
 No, really, just cut it out. No more tearing off those rectangular paper packets, no matter their color. See sugar sprinkled on top of something (donuts, pancakes, french toast)? Just say no. If you're really craving sugar, eat an apple. Sounds gross? Good, we're just getting started.
-Cut down on dairy
+
+
+#### Cut down on dairy #### 
 Apparently 70% of the Indian population is lactose intolerant, and we are still the largest dairy consumer in the world. Ironic? Dairy (creamers, ice cream, shakes) often just hangs around in a meal to provide that liquidy sugarness, we don't need it. The only exception is paneer which is yummmmy (peeli paneer aka chaman is a staple in kashmiri cuisine 😍). 
 
 
